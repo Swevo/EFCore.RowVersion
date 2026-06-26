@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/EFCore.RowVersion/EFCore.RowVersion.csproj" />
+  <Project Path="tests/EFCore.RowVersion.Tests/EFCore.RowVersion.Tests.csproj" />
+</Solution>
