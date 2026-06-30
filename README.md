@@ -1,6 +1,7 @@
 # Swevo.EFCore.RowVersion
 
-[![NuGet](https://img.shields.io/nuget/v/Swevo.EFCore.RowVersion.svg)](https://www.nuget.org/packages/Swevo.EFCore.RowVersion)
+[![NuGet](https://img.shields.io/nuget/v/Swevo.EFCore.RowVersion
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Swevo.EFCore.RowVersion.svg)](https://www.nuget.org/packages/Swevo.EFCore.RowVersion).svg)](https://www.nuget.org/packages/Swevo.EFCore.RowVersion)
 [![CI](https://github.com/Swevo/EFCore.RowVersion/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/EFCore.RowVersion/actions)
 
 Compile-time optimistic concurrency for EF Core. Stamp `[Optimistic]` on any partial entity class and the source generator wires up a `RowVersion` byte array property and the `IOptimisticEntity` interface. Two ready-made retry extensions handle concurrent-write conflicts without any Polly dependency.
